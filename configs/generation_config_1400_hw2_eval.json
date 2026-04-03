@@ -1,0 +1,19 @@
+{
+  "base_model": "runwayml/stable-diffusion-v1-5",
+  "lora_path": "outputs/lora/sksmiku_sd15_lora_v2_1400",
+  "output_dir": "outputs/generated/sksmiku_sd15_lora_v2_1400_hw2_eval",
+  "prompts": [
+    "a photo of sksmiku figurine",
+    "a photo of sksmiku figurine, full-body, simple background",
+    "a photo of sksmiku figurine in a cafe",
+    "a photo of sksmiku figurine wearing a small crown",
+    "a photo of sksmiku figurine with an anime-style background"
+  ],
+  "negative_prompt": "low quality, blurry, distorted, extra limbs, duplicate, watermark, text",
+  "num_inference_steps": 30,
+  "guidance_scale": 7.5,
+  "num_images_per_prompt": 2,
+  "height": 512,
+  "width": 512,
+  "seed": 42
+}
